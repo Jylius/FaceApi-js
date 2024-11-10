@@ -1,0 +1,7 @@
+orkun klasörünün içinde 
+1.jp
+2.jp
+3.jp
+şeklinde kendi resminizi koyabilirsiniz bunu assets> js > app.js dosyasının içinde 
+return ettiğimiz promise'nin içinde for döngüsünde eklediğiniz resim sayısına kadar güncelleyebilirsiniz.
+

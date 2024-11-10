@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>orkun | FaceID ile Oturum Kontrolü</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #66666673;
+        color: #000;
+      }
+
+      .container {
+        width: 700px;
+        margin-top: 20px;
+      }
+
+      .container .footer {
+        position: fixed;
+        bottom: -5px;
+        left: 0;
+        width: 100%;
+        background-color: rgb(65, 70, 73);
+        height: 100px;
+        border-top: 1px solid #665;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h3>FaceID ile Oturum Açma Yapımı</h3>
+      <p>
+        Bu uygulamamda FaceAPi ile ilgili route ve auth işlemlerini yapıyorum.
+        (muhtemelen yapmadım). Kullanıcı istediği zaman
+        Kamerayı aktif edebilecek. Ardından FaceAPi ile kamerada tespit edilen
+        yüzün; bizim kendi local resim veri tabanımızda olan verilerle
+        karşılaştıracağız. Eğer bulursak ekranda bir mesaj gösterip kullanıcıyı
+        2 saniye içerisinde yönlendireceğiz.
+      </p>
+
+      <!-- Footer -->
+      <div class="footer">
+        <span>footer var burada ama özen gösterme gereği duymadım</span>
+      </div>
+    </div>
+  </body>
+</html>

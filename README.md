@@ -1,0 +1,2 @@
+# FaceApi-kullaniyorum
+ teknolojiye şaşırıyorum
